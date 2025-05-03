@@ -1,0 +1,57 @@
+
+body {
+    font-family: Roboto, Cormorant, sans-serif;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+.container {
+    width: 1328px;
+    margin: 0 auto;
+    padding: 0 11px;
+}
+
+.header {
+    font-size: 16px;
+    padding: 20px 0;
+    background: #e5e5e5;
+}
+
+
+.header__wrapper {
+    display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.header__logo {
+    max-width: 52px;
+    padding: 0 52px;
+}
+
+.logo {
+    width: 100%;
+}
+
+.header__list {
+    display: flex;
+    flex-direction: row;
+    padding: 0 12px;
+    
+}
+
+.header__item:not(:last-child) {
+    margin-right: 40px;
+}
