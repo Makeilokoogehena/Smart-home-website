@@ -3,7 +3,9 @@ body {
     font-family: Roboto, Cormorant, sans-serif;
 }
 
-ul {
+ul, 
+h1,
+h2 {
     margin: 0;
     padding: 0;
 }
@@ -54,4 +56,31 @@ a {
 
 .header__item:not(:last-child) {
     margin-right: 40px;
+}
+
+/* header */
+
+.preview {
+    background-image: url(/assets/images/preview.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 60%;
+}
+
+.preview__wrapper {
+    min-height:657px;
+}
+
+.preview__title {
+    font-size: 72px;
+    text-align: center;
+    color: #fff;
+}
+
+.preview__first-title {
+    padding: 80px 0 10px 0;
+}
+
+.preview__second-title {
+    font-style: italic;
 }
